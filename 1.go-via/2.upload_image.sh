@@ -1,0 +1,1 @@
+curl -X POST --user admin:VMware1! --insecure -H "Content-Type: multipart/form-data" -F "file[]=@/home/vmware/VMware-VMvisor-Installer-7.0U3g-20328353.x86_64.iso" https://go-via.rainpole.io:8443/v1/images 
