@@ -7,10 +7,10 @@ $host03 = Get-VCFHost -Status UNASSIGNED_USEABLE | select fqdn,id | Where {$_.fq
 $host04 = Get-VCFHost -Status UNASSIGNED_USEABLE | select fqdn,id | Where {$_.fqdn -eq “sfo01-w01-esx04.sfo.rainpole.io"}
 
 #replace the id in the json file
-(Get-Content sfo-w01.json) | Foreach-Object {$_ -replace ‘HOSTID1', $($host01.id)} | Set-Content sfo-w01-mod.json
-(Get-Content sfo-w01-mod.json) | Foreach-Object {$_ -replace ‘HOSTID2', $($host02.id)} | Set-Content sfo-w01-mod.json
-(Get-Content sfo-w01-mod.json) | Foreach-Object {$_ -replace ‘HOSTID3', $($host03.id)} | Set-Content sfo-w01-mod.json
-(Get-Content sfo-w01-mod.json) | Foreach-Object {$_ -replace ‘HOSTID4', $($host04.id)} | Set-Content sfo-w01-mod.json
+(Get-Content json-files/sfo-w01.json) | Foreach-Object {$_ -replace ‘HOSTID1', $($host01.id)} | Set-Content json-files/sfo-w01-mod.json
+(Get-Content json-files/sfo-w01-mod.json) | Foreach-Object {$_ -replace ‘HOSTID2', $($host02.id)} | Set-Content json-files/sfo-w01-mod.json
+(Get-Content json-files/sfo-w01-mod.json) | Foreach-Object {$_ -replace ‘HOSTID3', $($host03.id)} | Set-Content json-files/sfo-w01-mod.json
+(Get-Content json-files/sfo-w01-mod.json) | Foreach-Object {$_ -replace ‘HOSTID4', $($host04.id)} | Set-Content json-files/sfo-w01-mod.json
 
 #deploy workload domain
-New-VCFWorkloadDomain -json sfo-w01-mod.json
+New-VCFWorkloadDomain -json json-files/sfo-w01-mod.json

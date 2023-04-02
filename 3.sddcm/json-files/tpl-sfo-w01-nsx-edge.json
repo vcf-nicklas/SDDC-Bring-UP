@@ -1,0 +1,65 @@
+{
+    "edgeClusterName" : "sfo-w01-ec01",
+    "edgeClusterType" : "NSX-T",
+    "edgeRootPassword" : "VMware1!VMware1!",
+    "edgeAdminPassword" : "VMware1!VMware1!",
+    "edgeAuditPassword" : "VMware1!VMware1!",
+    "edgeFormFactor" : "MEDIUM",
+    "tier0ServicesHighAvailability" : "ACTIVE_ACTIVE",
+    "mtu" : 1700,
+    "asn" : 65013,
+    "edgeNodeSpecs" : [ {
+      "edgeNodeName" : "sfo-w01-en01.sfo.rainpole.io",
+      "managementIP" : "10.16.11.135/24",
+      "managementGateway" : "10.16.11.1",
+      "edgeTepGateway" : "10.27.33.1",
+      "edgeTep1IP" : "10.27.33.4/24",
+      "edgeTep2IP" : "10.27.33.5/24",
+      "edgeTepVlan" : 2733,
+	  "clusterId" : "REPLACECLUSTERID",
+      "interRackCluster" : false,
+      "uplinkNetwork" : [ {
+        "uplinkVlan" : 2731,
+        "uplinkInterfaceIP" : "10.27.31.2/24",
+        "peerIP" : "10.27.31.1/24",
+        "asnPeer" : 65001,
+        "bgpPeerPassword" : "VMware1!"
+      },
+      {
+        "uplinkVlan" : 2732,
+        "uplinkInterfaceIP" : "10.27.32.2/24",
+        "peerIP" : "10.27.32.1/24",
+        "asnPeer" : 65001,
+        "bgpPeerPassword" : "VMware1!"
+      } ]
+    },
+    {
+      "edgeNodeName" : "sfo-w01-en02.sfo.rainpole.io",
+      "managementIP" : "10.16.11.136/24",
+      "managementGateway" : "10.16.11.1",
+      "edgeTepGateway" : "10.27.33.1",
+      "edgeTep1IP" : "10.27.33.6/24",
+      "edgeTep2IP" : "10.27.33.7/24",
+      "edgeTepVlan" : 2733,
+      "clusterId" : "REPLACECLUSTERID",
+      "interRackCluster" : false,
+      "uplinkNetwork" : [ {
+        "uplinkVlan" : 2731,
+        "uplinkInterfaceIP" : "10.27.31.3/24",
+        "peerIP" : "10.27.31.1/24",
+        "asnPeer" : 65001,
+        "bgpPeerPassword" : "VMware1!"
+      },
+      {
+        "uplinkVlan" : 2732,
+        "uplinkInterfaceIP" : "10.27.32.3/24",
+        "peerIP" : "10.27.32.1/24",
+        "asnPeer" : 65001,
+        "bgpPeerPassword" : "VMware1!"
+      } ]
+    } ],
+    "tier0RoutingType" : "EBGP",
+    "tier0Name" : "sfo-w01-ec01-t0-gw01",
+    "tier1Name" : "sfo-w01-ec01-t1-gw01",
+    "edgeClusterProfileType" : "DEFAULT"
+}
