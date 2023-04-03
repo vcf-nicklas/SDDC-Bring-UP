@@ -11,7 +11,7 @@
     "edgeNodeSpecs" : [ {
       "edgeNodeName" : "sfo-w01-en01.sfo.rainpole.io",
       "managementIP" : "10.16.31.135/24",
-      "managementGateway" : "10.16.11.1",
+      "managementGateway" : "10.16.31.1",
       "edgeTepGateway" : "10.27.33.1",
       "edgeTep1IP" : "10.27.33.4/24",
       "edgeTep2IP" : "10.27.33.5/24",
@@ -36,7 +36,7 @@
     {
       "edgeNodeName" : "sfo-w01-en02.sfo.rainpole.io",
       "managementIP" : "10.16.31.136/24",
-      "managementGateway" : "10.16.11.1",
+      "managementGateway" : "10.16.31.1",
       "edgeTepGateway" : "10.27.33.1",
       "edgeTep1IP" : "10.27.33.6/24",
       "edgeTep2IP" : "10.27.33.7/24",
