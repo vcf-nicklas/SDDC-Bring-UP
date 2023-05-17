@@ -11,3 +11,5 @@ https://github.com/vmware/powershell-module-for-vmware-cloud-foundation
 
 - go-via for unattended provisioning of ESXi hosts.
 https://github.com/maxiepax/go-via
+
+- PowerCLI
