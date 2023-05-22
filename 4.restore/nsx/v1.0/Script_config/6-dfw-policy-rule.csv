@@ -1,0 +1,9 @@
+PolicyDisplayName,Category,Sequence,RuleDisplayName,Source,Destination,Services,Action
+"Operations","Application","100","Allow_SSH","/infra/domains/default/groups/Admin_Servers","/infra/domains/default/groups/Production_Servers","/infra/services/SSH",ALLOW
+"Operations","Application","110","Allow_DNS","/infra/domains/default/groups/Admin_Servers","/infra/domains/default/groups/Domain_Controllers","/infra/services/DNS",ALLOW
+"Operations","Application","120","Allow_NTP","/infra/domains/default/groups/Admin_Servers","/infra/domains/default/groups/Domain_Controllers","/infra/services/NTP",ALLOW
+"Operations","Application","130","Allow_RDP","/infra/domains/default/groups/Admin_Servers","/infra/domains/default/groups/Domain_Controllers","/infra/services/RDP",ALLOW
+"Production","Application","500","Allow_DNS","/infra/domains/default/groups/Production_Servers","/infra/domains/default/groups/Domain_Controllers","/infra/services/DNS",ALLOW
+"Production","Application","510","Allow_NTP","/infra/domains/default/groups/Production_Servers","/infra/domains/default/groups/Domain_Controllers","/infra/services/NTP",ALLOW
+"Production","Application","520","Allow_MySQL","/infra/domains/default/groups/Business_Servers","/infra/domains/default/groups/Database_Servers","/infra/services/MySQL",ALLOW
+"Production","Application","530","DROP_ALL","/infra/domains/default/groups/Production_Servers","/infra/domains/default/groups/Production_Servers","ANY",DROP

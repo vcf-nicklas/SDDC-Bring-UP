@@ -1,0 +1,13 @@
+VMName,VDPortgroup,Type
+"sfo-adm-op01",sfo-w01-operations,e1000
+"sfo-adm-op02",sfo-w01-operations,e1000
+"sfo-prod-dc01",sfo-w01-production,Vmxnet3
+"sfo-prod-dc02",sfo-w01-production,Vmxnet3
+"sfo-prod-db01",sfo-w01-database,e1000
+"sfo-prod-db02",sfo-w01-database,e1000
+"sfo-prod-dns01",sfo-w01-operations,e1000
+"sfo-prod-dns02",sfo-w01-operations,e1000
+"sfo-prod-fs01",sfo-w01-files,e1000
+"sfo-prod-fs02",sfo-w01-files,e1000
+"sfo-prod-app01",sfo-w01-application,e1000
+"sfo-prod-app02",sfo-w01-application,e1000

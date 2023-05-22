@@ -1,0 +1,6 @@
+DisplayName,GWAddress,DHCPRange,ServerAddress,DNSServers,Network,DHCPServerID,LeaseTime,GatewayID,ResourceType,TransportZoneID
+"sfo-w01-operations","10.1.0.1/24","10.1.0.100-10.1.0.150","10.1.0.2/24","172.16.100.4","10.1.0.0/24","10.1.0-dhcp","86400","18ad868a-3b0e-4bde-a62b-a48c57de6937","SegmentDhcpV4Config","0a5fbaa2-a487-491a-889f-8daca50912f8"
+"sfo-w01-production","10.2.0.1/24","10.2.0.100-10.2.0.150","10.2.0.2/24","172.16.100.4","10.2.0.0/24","10.2.0-dhcp","86400","18ad868a-3b0e-4bde-a62b-a48c57de6937","SegmentDhcpV4Config","0a5fbaa2-a487-491a-889f-8daca50912f8"
+"sfo-w01-database","10.3.0.1/24","10.3.0.100-10.3.0.150","10.3.0.2/24","172.16.100.4","10.3.0.0/24","10.3.0-dhcp","86400","18ad868a-3b0e-4bde-a62b-a48c57de6937","SegmentDhcpV4Config","0a5fbaa2-a487-491a-889f-8daca50912f8"
+"sfo-w01-application","10.4.0.1/24","10.4.0.100-10.4.0.150","10.4.0.2/24","172.16.100.4","10.4.0.0/24","10.4.0-dhcp","86400","18ad868a-3b0e-4bde-a62b-a48c57de6937","SegmentDhcpV4Config","0a5fbaa2-a487-491a-889f-8daca50912f8"
+"sfo-w01-files","10.5.0.1/24","10.5.0.100-10.5.0.150","10.5.0.2/24","172.16.100.4","10.5.0.0/24","10.5.0-dhcp","86400","18ad868a-3b0e-4bde-a62b-a48c57de6937","SegmentDhcpV4Config","0a5fbaa2-a487-491a-889f-8daca50912f8"

@@ -1,0 +1,6 @@
+Type,Value,Key,Operator,ResourceType,Description,DisplayName
+"VirtualMachine","env|operations","Tag","EQUALS","Condition","Servers for admin and operations","Admin_Servers"
+"VirtualMachine","env|production","Tag","EQUALS","Condition","Production Servers and workloads","Production_Servers"
+"VirtualMachine","app|database","Tag","EQUALS","Condition","Database Servers and workloads","Database_Servers"
+"VirtualMachine","app|business","Tag","EQUALS","Condition","Business Servers and workloads","Business_Servers"
+"VirtualMachine","app|domain","Tag","EQUALS","Condition","Business Domain Controllers","Domain_Controllers"
