@@ -19,7 +19,7 @@
         "hostSpecs": [
           {
             "id": "HOSTID1",
-            "licenseKey": "R1286-NHL04-680H1-0198H-2M7P1",
+            "licenseKey": "XXXXX-XXXXX-XXXXX-XXXXX-XXXXX",
             "hostNetworkSpec": {
               "vmNics": [
                 {
@@ -35,7 +35,7 @@
           },
           {
             "id": "HOSTID2",
-            "licenseKey": "R1286-NHL04-680H1-0198H-2M7P1",
+            "licenseKey": "XXXXX-XXXXX-XXXXX-XXXXX-XXXXX",
             "hostNetworkSpec": {
               "vmNics": [
                 {
@@ -51,7 +51,7 @@
           },
           {
             "id": "HOSTID3",
-            "licenseKey": "R1286-NHL04-680H1-0198H-2M7P1",
+            "licenseKey": "XXXXX-XXXXX-XXXXX-XXXXX-XXXXX",
             "hostNetworkSpec": {
               "vmNics": [
                 {
@@ -67,7 +67,7 @@
           },
           {
             "id": "HOSTID4",
-            "licenseKey": "R1286-NHL04-680H1-0198H-2M7P1",
+            "licenseKey": "XXXXX-XXXXX-XXXXX-XXXXX-XXXXX",
             "hostNetworkSpec": {
               "vmNics": [
                 {
@@ -85,7 +85,7 @@
         "datastoreSpec": {
           "vsanDatastoreSpec": {
             "failuresToTolerate": 1,
-            "licenseKey": "R1481-Q4H06-28TH1-08AR0-ATA2M",
+            "licenseKey": "XXXXX-XXXXX-XXXXX-XXXXX-XXXXX",
             "datastoreName": "sfo-w01-cl01-ds-vsan01"
           }
         },
@@ -151,7 +151,7 @@
     ],
     "vip": "10.16.11.131",
     "vipFqdn": "sfo-w01-nsx01.sfo.rainpole.io",
-    "licenseKey": "902AN-XN2D0-Y8AD0-0RC82-CXW5M",
+    "licenseKey": "XXXXX-XXXXX-XXXXX-XXXXX-XXXXX",
     "nsxManagerAdminPassword": "VMware1!VMware1!",
     "formFactor": "medium"
   }
