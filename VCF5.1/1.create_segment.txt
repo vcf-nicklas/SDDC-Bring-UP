@@ -1,0 +1,29 @@
+{
+ "resource_type": "Infra",
+ "children": [
+  {
+   "resource_type": "ChildSegment",
+   "marked_for_delete": "false",
+   "Segment": {
+    "resource_type": "Segment",
+    "type": "DISCONNECTED",
+    "id": "XYZ",
+    "display_name": "XYZ",
+    "vlan_ids": [
+     "1234"
+    ],
+    "path": "/infra/segments/XYZ",
+    "relative_path": "XYZ",
+    "parent_path": "/infra/segments/XYZ",
+    "transport_zone_path": "/infra/sites/default/enforcement-points/default/transport-zones/a95c914d-748d-497c-94ab-10d4647daeba",
+    "advanced_config": {
+     "uplink_teaming_policy_name": "Uplink-VLAN3014"
+    }
+   }
+  }
+ ]
+}
+
+
+------------
+PATCH : /policy/api/v1/infra/

@@ -1,0 +1,114 @@
+{
+    "resource_type": "Infra",
+    "children": [
+        {
+            "resource_type": "ChildTier0",
+            "marked_for_delete": "false",
+            "Tier0": {
+                "resource_type": "Tier0",
+                "id": "XYZ",
+                "ha_mode": "ACTIVE_ACTIVE",
+                "children": [
+                    {
+                        "resource_type": "ChildLocaleServices",
+                        "LocaleServices": {
+                            "edge_cluster_path": "/infra/sites/default/enforcement-points/default/edge-clusters/d0d14d7f-cdca-4ccc-a4aa-46f8b3138892",
+                            "resource_type": "LocaleServices",
+                            "id": "XYZ-SR",
+                            "children": [
+                                {
+                                    "Tier0Interface": {
+                                        "edge_path": "/infra/sites/default/enforcement-points/default/edge-clusters/d0d14d7f-cdca-4ccc-a4aa-46f8b3138892/edge-nodes/0",
+                                        "segment_path": "/infra/segments/XYZ",
+                                        "type": "EXTERNAL",
+                                        "resource_type": "Tier0Interface",
+                                        "id": "XYZ",
+                                        "display_name": "XYZ",
+                                        "children": [],
+                                        "marked_for_delete": false,
+                                        "subnets": [
+                                            {
+                                                "ip_addresses": [
+                                                    "10.1.1.1"
+                                                ],
+                                                "prefix_len": "24"
+                                            }
+                                        ]
+                                    },
+                                    "resource_type": "ChildTier0Interface",
+                                    "marked_for_delete": false
+                                },
+                                {
+                                    "Tier0Interface": {
+                                        "edge_path": "/infra/sites/default/enforcement-points/default/edge-clusters/d0d14d7f-cdca-4ccc-a4aa-46f8b3138892/edge-nodes/1",
+                                        "segment_path": "/infra/segments/XYZ1",
+                                        "type": "EXTERNAL",
+                                        "resource_type": "Tier0Interface",
+                                        "id": "XYZ1",
+                                        "display_name": "XYZ1",
+                                        "children": [],
+                                        "marked_for_delete": false,
+                                        "subnets": [
+                                            {
+                                                "ip_addresses": [
+                                                    "10.2.2.2"
+                                                ],
+                                                "prefix_len": "24"
+                                            }
+                                        ]
+                                    },
+                                    "resource_type": "ChildTier0Interface",
+                                    "marked_for_delete": false
+                                },
+                                {
+                                    "Tier0Interface": {
+                                        "edge_path": "/infra/sites/default/enforcement-points/default/edge-clusters/d0d14d7f-cdca-4ccc-a4aa-46f8b3138892/edge-nodes/0",
+                                        "segment_path": "/infra/segments/XYZ1",
+                                        "type": "EXTERNAL",
+                                        "resource_type": "Tier0Interface",
+                                        "id": "XYZ2",
+                                        "display_name": "XYZ2",
+                                        "children": [],
+                                        "marked_for_delete": false,
+                                        "subnets": [
+                                            {
+                                                "ip_addresses": [
+                                                    "10.3.3.3"
+                                                ],
+                                                "prefix_len": "24"
+                                            }
+                                        ]
+                                    },
+                                    "resource_type": "ChildTier0Interface",
+                                    "marked_for_delete": false
+                                },
+                                {
+                                    "Tier0Interface": {
+                                        "edge_path": "/infra/sites/default/enforcement-points/default/edge-clusters/d0d14d7f-cdca-4ccc-a4aa-46f8b3138892/edge-nodes/1",
+                                        "segment_path": "/infra/segments/XYZ",
+                                        "type": "EXTERNAL",
+                                        "resource_type": "Tier0Interface",
+                                        "id": "XYZ3",
+                                        "display_name": "XYZ3",
+                                        "children": [],
+                                        "marked_for_delete": false,
+                                        "subnets": [
+                                            {
+                                                "ip_addresses": [
+                                                    "10.4.4.4"
+                                                ],
+                                                "prefix_len": "24"
+                                            }
+                                        ]
+                                    },
+                                    "resource_type": "ChildTier0Interface",
+                                    "marked_for_delete": false
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}
