@@ -1,0 +1,38 @@
+GET
+https://FQDN/policy/api/v1/infra/tier-0s/XYZ/locale-services/XYZ-SR/bgp/neighbors/1
+
+PATCH
+https://FQDN/policy/api/v1/infra/tier-0s/XYZ/locale-services/XYZ-SR/bgp/neighbors/1
+
+{
+    "source_addresses": [
+        "10.1.1.1"
+    ],
+    "neighbor_address": "10.1.1.2",
+    "remote_as_num": "6666",
+    "route_filtering": [
+        {
+            "enabled": true,
+            "address_family": "IPV4"
+        }
+    ],
+    "keep_alive_time": 60,
+    "hold_down_time": 180,
+    "bfd": {
+        "enabled": false,
+        "interval": 500,
+        "multiple": 3
+    },
+    "allow_as_in": false,
+    "maximum_hop_limit": 1,
+    "password_set": true,
+    "enabled": true,
+    "resource_type": "BgpNeighborConfig",
+    "path": "/infra/tier-0s/XYZ/locale-services/XYZ-SR/bgp/neighbors/1",
+    "parent_path": "/infra/tier-0s/XYZ/locale-services/XYZ-SR/bgp",
+    "remote_path": "",
+    "marked_for_delete": false,
+    "overridden": false,
+    "_system_owned": false,
+    "_protection": "NOT_PROTECTED"
+}

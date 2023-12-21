@@ -1,0 +1,15 @@
+{
+    "local_as_num": "65001",
+    "enabled": true,
+    "ecmp": true,
+    "graceful_restart": false,
+    "multipath_relax": true,
+    "inter_sr_ibgp": true,
+    "graceful_restart_config": {
+        "mode": "HELPER_ONLY",
+        "timer": {
+            "restart_timer": 180,
+            "stale_route_timer": 600
+        }
+    }
+}
