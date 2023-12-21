@@ -1,0 +1,53 @@
+{
+    "network": "0.0.0.0/0",
+    "next_hops": [
+        {
+            "ip_address": "10.3.3.20",
+            "admin_distance": 5,
+            "scope": [
+                "/infra/tier-0s/XYZ/locale-services/XYZ-SR/interfaces/XYZ2"
+            ]
+        },
+        {
+            "ip_address": "10.4.4.20",
+            "admin_distance": 5,
+            "scope": [
+                "/infra/tier-0s/XYZ/locale-services/XYZ-SR/interfaces/XYZ3"
+            ]
+        },
+        {
+            "ip_address": "10.2.2.20",
+            "admin_distance": 5,
+            "scope": [
+                "/infra/tier-0s/XYZ/locale-services/XYZ-SR/interfaces/XYZ1"
+            ]
+        },
+        {
+            "ip_address": "10.1.1.20",
+            "admin_distance": 5,
+            "scope": [
+                "/infra/tier-0s/XYZ/locale-services/XYZ-SR/interfaces/XYZ"
+            ]
+        }
+    ],
+    "enabled_on_secondary": false,
+    "resource_type": "StaticRoutes",
+    "id": "Multi",
+    "display_name": "Multi",
+    "path": "/infra/tier-0s/XYZ/static-routes/Multi",
+    "relative_path": "Multi",
+    "parent_path": "/infra/tier-0s/XYZ",
+    "remote_path": "",
+    "unique_id": "a950a7ac-c761-4f47-bc46-f1d61184ce1d",
+    "realization_id": "a950a7ac-c761-4f47-bc46-f1d61184ce1d",
+    "owner_id": "2cdc9b46-557e-4d53-97e3-6065b7c86e52",
+    "marked_for_delete": false,
+    "overridden": false,
+    "_create_time": 1703160023085,
+    "_create_user": "admin",
+    "_last_modified_time": 1703160101007,
+    "_last_modified_user": "admin",
+    "_system_owned": false,
+    "_protection": "NOT_PROTECTED",
+    "_revision": 2
+}
